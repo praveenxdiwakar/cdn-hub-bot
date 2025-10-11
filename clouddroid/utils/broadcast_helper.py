@@ -1,5 +1,5 @@
-# (c) @biisal
-# (c) adarsh-goel
+# <!-- # (c) @clouddroid
+# (c) Praveen(𝕏Ð)Diwakar-->
 import asyncio
 import traceback
 from pyrogram.errors import FloodWait, InputUserDeactivated, UserIsBlocked, PeerIdInvalid
@@ -20,3 +20,4 @@ async def send_msg(user_id, message):
         return 400, f"{user_id} : user id invalid\n"
     except Exception as e:
         return 500, f"{user_id} : {traceback.format_exc()}\n"
+
