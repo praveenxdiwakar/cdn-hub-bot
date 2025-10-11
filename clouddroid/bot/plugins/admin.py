@@ -1,5 +1,5 @@
-# (c) @adarsh-goel
-# (c) @biisal
+# (c) @clouddroid
+# (c) Praveen(𝕏Ð)Diwakar
 import os
 import time
 import string
@@ -7,10 +7,10 @@ import random
 import asyncio
 import aiofiles
 import datetime
-from biisal.utils.broadcast_helper import send_msg
-from biisal.utils.database import Database
-from biisal.bot import StreamBot
-from biisal.vars import Var
+from clouddroid.utils.broadcast_helper import send_msg
+from clouddroid.utils.database import Database
+from clouddroid.bot import StreamBot
+from clouddroid.vars import Var
 from pyrogram import filters, Client
 from pyrogram.types import Message
 db = Database(Var.DATABASE_URL, Var.name)
