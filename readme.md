@@ -6,13 +6,13 @@
 
 Here is our Demo bot -
 
-[![Click Here](https://img.shields.io/badge/Demo%20Bot-Click%20Here-blue?style=flat&logo=telegram&labelColor=white&link=https://t.me/Bisal_Files_Talk)](https://t.me/Bisal_File2Link_Bot)
+[![Click Here](https://img.shields.io/badge/Demo%20Bot-Click%20Here-blue?style=flat&logo=telegram&labelColor=white&link=https://t.me/cdnhubs)](https://t.me/cdnhubbot)
 
 ### Need Deployment Support?
 
 If you encounter any issues deploying the bot, feel free to seek assistance in our support group:
 
-[![Join Support Group](https://img.shields.io/badge/Join%20Support%20Group-Click%20Here-blue?style=flat&logo=telegram&labelColor=white&link=https://t.me/Bisal_Files_Talk)](https://t.me/Bisal_Files_Talk)
+[![Join Support Group](https://img.shields.io/badge/Join%20Support%20Group-Click%20Here-blue?style=flat&logo=telegram&labelColor=white&link=https://t.me/cdnhubs)](https://t.me/cdnhubbot)
 
 
 
@@ -26,9 +26,9 @@ If you encounter any issues deploying the bot, feel free to seek assistance in o
     <br />
    </strong></a>
     <br />
-    <a href="https://github.com/biisal/biisal-file-stream-pro/issues">Report a Bug</a>
+    <a href="https://t.me/anonfrager_bot">Report a Bug</a>
     |
-    <a href="https://github.com/biisal/biisal-file-stream-pro/issues">Request Feature</a>
+    <a href="https://t.me/anonfrager_bot">Request Feature</a>
   </p>
 
 
@@ -85,7 +85,7 @@ Thank you for your interest in this project, and we appreciate your understandin
       <summary><b>Deploy to Heroku<b></summary>
       Click the button below to deploy the bot on Heroku:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/biisal/biisal-file-stream-pro)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/praveenxdiwakar/cdn-hub-bot)
 
   </details>
   <details>
@@ -139,7 +139,7 @@ DATABASE_URL=mongodb_uri
 
 `DATABASE_URL` : MongoDB URI for saving User IDs when they first Start the Bot. We will use that for Broadcasting to them. I will try to add more features related with Database. If you need help to get the URI you can click on logo below!
 
-[![mongo](https://telegra.ph/file/fd68906852c71fdd68bef.jpg)](https://www.youtube.com/watch?v=HhHzCfrqsoE)
+[![mongo](https://telegra.ph/file/fd68906852c71fdd68bef.jpg)](https://www.youtube.com/watch?v=HhHzCfrqso)
 
  Option Vars
 
@@ -176,6 +176,7 @@ Bot also Supported with Channels. Just add bot Channel as Admin. If any new file
 
 ### Credits : 
 
-- [Me](https://github.com/biisal)
+- [Me](https://github.com/praveenxdiwakar)
 - [Adarsh](https://github.com/adarsh-goel)
 - Everyone In This Journey !
+
