@@ -1,7 +1,5 @@
-# Taken from megadlbot_oss <https://github.com/eyaadh/megadlbot_oss/blob/master/mega/webserver/routes.py>
-# Thanks to Eyaadh <https://github.com/eyaadh>
-# Thanks to adarsh-goel
-# (c) @biisal
+# (c) @clouddroid
+# (c) Praveen(𝕏Ð)Diwakar
 import re
 import time
 import math
@@ -10,13 +8,13 @@ import secrets
 import mimetypes
 from aiohttp import web
 from aiohttp.http_exceptions import BadStatusLine
-from biisal.bot import multi_clients, work_loads, StreamBot
-from biisal.server.exceptions import FIleNotFound, InvalidHash
-from biisal import StartTime, __version__
+from clouddroid.bot import multi_clients, work_loads, StreamBot
+from clouddroid.server.exceptions import FIleNotFound, InvalidHash
+from clouddroid import StartTime, __version__
 from ..utils.time_format import get_readable_time
 from ..utils.custom_dl import ByteStreamer
-from biisal.utils.render_template import render_page
-from biisal.vars import Var
+from clouddroid.utils.render_template import render_page
+from clouddroid.vars import Var
 
 
 routes = web.RouteTableDef()
@@ -168,3 +166,4 @@ async def media_streamer(request: web.Request, id: int, secure_hash: str):
             "Accept-Ranges": "bytes",
         },
     )
+
