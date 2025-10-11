@@ -1,10 +1,10 @@
-# (c) biisal (c) adarsh-goel
+# (c) @clouddroid (c) Praveen(𝕏Ð)Diwakar
 
 import asyncio
 import logging
 from ..vars import Var
 from pyrogram import Client
-from biisal.utils.config_parser import TokenParser
+from clouddroid.utils.config_parser import TokenParser
 from . import multi_clients, work_loads, StreamBot
 
 
@@ -43,3 +43,4 @@ async def initialize_clients():
         print("Multi-Client Mode Enabled")
     else:
         print("No additional clients were initialized, using default client")
+
