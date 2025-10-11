@@ -1,4 +1,5 @@
-# © agrprojects
+# (c) @clouddroid
+# (c) Praveen(𝕏Ð)Diwakar
 
 from aiohttp import web
 from .stream_routes import routes
