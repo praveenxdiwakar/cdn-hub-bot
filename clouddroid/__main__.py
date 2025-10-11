@@ -1,5 +1,5 @@
-# (c) @biisal
-# (c) adars h-goel
+# (c) @clouddroid
+# (c) Praveen(𝕏Ð)Diwakar
 import os
 import sys
 import glob
@@ -13,14 +13,14 @@ from .vars import Var
 from aiohttp import web
 from .server import web_server
 from .utils.keepalive import ping_server
-from biisal.bot.clients import initialize_clients
+from clouddroid.bot.clients import initialize_clients
 
 LOGO = """
- ____ ___ ___ ____    _    _     
-| __ )_ _|_ _/ ___|  / \  | |    
-|  _ \| | | |\___ \ / _ \ | |    
-| |_) | | | | ___) / ___ \| |___ 
-|____/___|___|____/_/   \_\_____|"""
+  ____ _                 _ ____             _     _ 
+ / ___| | ___  _   _  __| |  _ \ _ __ ___  (_) __| |
+| |   | |/ _ \| | | |/ _` | | | | '__/ _ \ | |/ _` |
+| |___| | (_) | |_| | (_| | |_| | | | (_) || | (_| |
+ \____|_|\___/ \__,_|\__,_|____/|_|  \___(_)_|\__,_|"""
 
 logging.basicConfig(
     level=logging.INFO,
@@ -30,7 +30,7 @@ logging.getLogger("aiohttp").setLevel(logging.ERROR)
 logging.getLogger("pyrogram").setLevel(logging.ERROR)
 logging.getLogger("aiohttp.web").setLevel(logging.ERROR)
 
-ppath = "biisal/bot/plugins/*.py"
+ppath = "clouddroid/bot/plugins/*.py"
 files = glob.glob(ppath)
 StreamBot.start()
 loop = asyncio.get_event_loop()
@@ -54,12 +54,12 @@ async def start_services():
         with open(name) as a:
             patt = Path(a.name)
             plugin_name = patt.stem.replace(".py", "")
-            plugins_dir = Path(f"biisal/bot/plugins/{plugin_name}.py")
+            plugins_dir = Path(f"clouddroid/bot/plugins/{plugin_name}.py")
             import_path = ".plugins.{}".format(plugin_name)
             spec = importlib.util.spec_from_file_location(import_path, plugins_dir)
             load = importlib.util.module_from_spec(spec)
             spec.loader.exec_module(load)
-            sys.modules["biisal.bot.plugins." + plugin_name] = load
+            sys.modules["clouddroid.bot.plugins." + plugin_name] = load
             print("Imported => " + plugin_name)
     if Var.ON_HEROKU:
         print("------------------ Starting Keep Alive Service ------------------")
@@ -74,7 +74,7 @@ async def start_services():
     print('\n')
     print('---------------------------------------------------------------------------------------------------------')
     print('---------------------------------------------------------------------------------------------------------')
-    print(' follow me for more such exciting bots! https://github.com/biisal')
+    print(' follow me for more such exciting bots! https://github.com/praveenxdiwakar')
     print('---------------------------------------------------------------------------------------------------------')
     print('\n')
     print('----------------------- Service Started -----------------------------------------------------------------')
@@ -86,7 +86,7 @@ async def start_services():
     print('---------------------------------------------------------------------------------------------------------')
     print(LOGO)
     try: 
-        await StreamBot.send_message(chat_id=Var.OWNER_ID[0] ,text='<b>ᴊᴀɪ sʜʀᴇᴇ ᴋʀɪsʜɴᴀ 😎\nʙᴏᴛ ʀᴇsᴛᴀʀᴛᴇᴅ !!</b>')
+        await StreamBot.send_message(chat_id=Var.OWNER_ID[0] ,text='<b>ʟᴜᴄɪꜰᴇʀ 😎\nʙᴏᴛ ʀᴇsᴛᴀʀᴛᴇᴅ !!</b>')
     except Exception as e:
         print(f'got this err to send restart msg to owner : {e}')
     await idle()
