@@ -133,8 +133,6 @@ DATABASE_URL=mongodb_uri
 
 `DATABASE_URL` : MongoDB URI for saving User IDs when they first Start the Bot. We will use that for Broadcasting to them. I will try to add more features related with Database. If you need help to get the URI you can click on logo below!
 
-[![mongo](https://telegra.ph/file/fd68906852c71fdd68bef.jpg)](https://www.youtube.com/watch?v=HhHzCfrqso)
-
  Option Vars
 
 `UPDATES_CHANNEL` : Put a Public Channel Username, so every user have to Join that channel to use the bot. Must add bot to channel as Admin to work properly.
@@ -173,5 +171,6 @@ Bot also Supported with Channels. Just add bot Channel as Admin. If any new file
 - [Me](https://github.com/praveenxdiwakar)
 - [Cloud Droid](https://t.me/clouddroid)
 - Everyone In This Journey !
+
 
 
