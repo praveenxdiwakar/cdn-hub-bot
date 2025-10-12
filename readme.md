@@ -106,7 +106,7 @@ and to stop the whole bot,
 <details>
   <summary><b>Vars and Details :</b></summary>
 
-Go to a file named `Vars.py` in the `biisal` Named File and add all the variables there.
+Go to a file named `Vars.py` in the `clouddroid` Named File and add all the variables there.
 An example of `Vars.py` file:
 
 ```py
@@ -171,6 +171,7 @@ Bot also Supported with Channels. Just add bot Channel as Admin. If any new file
 - [𝕏Ð](https://github.com/praveenxdiwakar)
 - [Cloud Droid](https://t.me/clouddroid)
 - Everyone In This Journey !
+
 
 
 
