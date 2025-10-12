@@ -1,6 +1,6 @@
 {
-    "name": "biisal",
-    "description": "A Pyrogram Telegram bot to Stream Telegram files to web. @biisal",
+    "name": "clouddroid",
+    "description": "A Pyrogram Telegram bot to Stream Telegram files to web. @clouddroid",
     "keywords": [
         "telegram",
         "stream",
@@ -13,10 +13,10 @@
         "media",
         "bot"
     ],
-    "repository": "https://github.com/biisal/biisal-file-stream-pro/",
+    "repository": "https://github.com/praveenxdiwakar/cdn-hub-bot/",
     "success_url": "/",
     "logo": "https://i.postimg.cc/jjgVnXrV/20231106-110427.png",
-    "website": "https://biisal.github.io/biisal",
+    "website": "https://praveenxdiwakar.github.io/xd",
     "env": {
         "ENV": {
             "description": "Set this to True if you don't want to crash the bot",
@@ -114,3 +114,4 @@
         }
     }
 }
+
