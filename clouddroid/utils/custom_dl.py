@@ -1,14 +1,16 @@
+# <!-- # (c) @clouddroid
+# (c) Praveen(𝕏Ð)Diwakar-->
 import math
 import asyncio
 import logging
-from biisal.vars import Var
+from clouddroid.vars import Var
 from typing import Dict, Union
-from biisal.bot import work_loads
+from clouddroid.bot import work_loads
 from pyrogram import Client, utils, raw
 from .file_properties import get_file_ids
 from pyrogram.session import Session, Auth
 from pyrogram.errors import AuthBytesInvalid
-from biisal.server.exceptions import FIleNotFound
+from clouddroid.server.exceptions import FIleNotFound
 from pyrogram.file_id import FileId, FileType, ThumbnailSource
 
 
@@ -25,8 +27,8 @@ class ByteStreamer:
             generate_media_session: returns the media session for the DC that contains the media file.
             yield_file: yield a file from telegram servers for streaming.
             
-        This is a modified version of the <https://github.com/eyaadh/megadlbot_oss/blob/master/mega/telegram/utils/custom_download.py>
-        Thanks to Eyaadh <https://github.com/eyaadh>
+        This is a modified version of the <!-- by @clouddroid & Praveen(𝕏Ð)Diwakar  -->
+        Thanks to Praveen(𝕏Ð)Diwakar <https://github.com/praveenxdiwakar>
         """
         self.clean_timer = 30 * 60
         self.client: Client = client
@@ -172,8 +174,8 @@ class ByteStreamer:
     ) -> Union[str, None]:
         """
         Custom generator that yields the bytes of the media file.
-        Modded from <https://github.com/eyaadh/megadlbot_oss/blob/master/mega/telegram/utils/custom_download.py#L20>
-        Thanks to Eyaadh <https://github.com/eyaadh>
+        This is a modified version of the <!-- by @clouddroid & Praveen(𝕏Ð)Diwakar  -->
+        Thanks to Praveen(𝕏Ð)Diwakar <https://github.com/praveenxdiwakar>
         """
         client = self.client
         work_loads[index] += 1
@@ -228,4 +230,5 @@ class ByteStreamer:
         while True:
             await asyncio.sleep(self.clean_timer)
             self.cached_file_ids.clear()
+
             logging.debug("Cleaned the cache")
