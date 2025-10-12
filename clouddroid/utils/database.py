@@ -1,5 +1,5 @@
-# (c) @biisal
-#(c) Adarsh-Goel
+# <!-- # (c) @clouddroid
+# (c) Praveen(𝕏Ð)Diwakar-->
 import datetime
 import motor.motor_asyncio
 
@@ -70,3 +70,4 @@ class Database:
     
 
     
+
