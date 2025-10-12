@@ -1,8 +1,10 @@
+# <!-- # (c) @clouddroid
+# (c) Praveen(𝕏Ð)Diwakar-->
 import asyncio
 import logging
 import aiohttp
 import traceback
-from biisal.vars import Var
+from clouddroid.vars import Var
 
 
 async def ping_server():
@@ -19,3 +21,4 @@ async def ping_server():
             logging.warning("Couldn't connect to the site URL..!")
         except Exception:
             traceback.print_exc()
+
