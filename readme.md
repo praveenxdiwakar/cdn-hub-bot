@@ -17,10 +17,6 @@ If you encounter any issues deploying the bot, feel free to seek assistance in o
 
 
 <h1 align="center"></h1>
-<p align="center"> 
-  <img src="https://wallpapercave.com/wp/wp12026024.jpg" alt="Cover Image" width="650">
-  </a>
-  
  <p align="center">
     A Telegram bot to turn all media and documents files to instant direct download and stream link .
     <br />
@@ -53,8 +49,6 @@ Thank you for your interest in this project, and we appreciate your understandin
 <hr>
 
 ## 🍁 About This Bot :
-
-![streamingfilestreambot-professional-live_1](https://t3.ftcdn.net/jpg/05/97/92/78/240_F_597927853_iZIpn7Blgg3TPd1XEKgF1KhLRuqNxhiU.jpg)
 
 </p>
 <p align='center'>
@@ -94,12 +88,12 @@ Thank you for your interest in this project, and we appreciate your understandin
   You should make sure you have Python 3.6+ installed on your PC, then clone this repo and run the following commands in a terminal:
 
 ```py
-git clone https://github.com/biisal/biisal-file-stream-pro
+git clone https://github.com/praveenxdiwakar/cdn-hub-bot
 cd filestreambot-pro
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
 pip install -r requirements.txt
-python3 -m biisal
+python3 -m clouddroid
 ```
 
 
@@ -168,7 +162,7 @@ DATABASE_URL=mongodb_uri
 
 To get an instant stream link, just forward any media to the bot and boom, its 🚀🚀.
   
-![image](https://i.postimg.cc/7hbFzd7X/20231212-235124.jpg)
+![image](#)
 
 
 ### Channel Support
@@ -177,6 +171,7 @@ Bot also Supported with Channels. Just add bot Channel as Admin. If any new file
 ### Credits : 
 
 - [Me](https://github.com/praveenxdiwakar)
-- [Adarsh](https://github.com/adarsh-goel)
+- [Cloud Droid](https://t.me/clouddroid)
 - Everyone In This Journey !
+
 
