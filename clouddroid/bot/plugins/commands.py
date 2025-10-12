@@ -44,7 +44,7 @@ async def start(b, m):
         except UserNotParticipant:
              await StreamBot.send_photo(
                 chat_id=m.chat.id,
-                photo="https://telegra.ph/file/5eb253f28ed7ed68cb4e6.png",
+                photo="https://graph.org/file/98d3a0c16f6e4c95f9b6c-138a036861323b935e.jpg",
                 caption=""""<b>Hᴇʏ ᴛʜᴇʀᴇ!\n\nPʟᴇᴀsᴇ ᴊᴏɪɴ ᴏᴜʀ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ ! 😊\n\nDᴜᴇ ᴛᴏ sᴇʀᴠᴇʀ ᴏᴠᴇʀʟᴏᴀᴅ, ᴏɴʟʏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ sᴜʙsᴄʀɪʙᴇʀs ᴄᴀɴ ᴜsᴇ ᴛʜɪs ʙᴏᴛ !</b>""",
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -65,7 +65,7 @@ async def start(b, m):
             return
     await StreamBot.send_photo(
     chat_id=m.chat.id,
-    photo="https://telegra.ph/file/d813fe75a3ac675ef34b7.jpg",
+    photo="https://graph.org/file/f43578019b02318604298-b2e031cb6a39775dfa.jpg",
     caption= SRT_TXT.format(m.from_user.mention(style="md")),
     reply_markup=InlineKeyboardMarkup(
         [
@@ -104,7 +104,7 @@ async def help_cd(b, m):
         except UserNotParticipant:
              await StreamBot.send_photo(
                 chat_id=m.chat.id,
-                photo="https://telegra.ph/file/5eb253f28ed7ed68cb4e6.png",
+                photo="https://graph.org/file/98d3a0c16f6e4c95f9b6c-138a036861323b935e.jpg",
                 caption=""""<b>Hᴇʏ ᴛʜᴇʀᴇ!\n\nPʟᴇᴀsᴇ ᴊᴏɪɴ ᴏᴜʀ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ ! 😊\n\nDᴜᴇ ᴛᴏ sᴇʀᴠᴇʀ ᴏᴠᴇʀʟᴏᴀᴅ, ᴏɴʟʏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ sᴜʙsᴄʀɪʙᴇʀs ᴄᴀɴ ᴜsᴇ ᴛʜɪs ʙᴏᴛ !</b>""",
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -125,7 +125,7 @@ async def help_cd(b, m):
             return
     await StreamBot.send_photo(
     chat_id=m.chat.id,
-    photo="https://telegra.ph/file/d813fe75a3ac675ef34b7.jpg",
+    photo="https://graph.org/file/f43578019b02318604298-b2e031cb6a39775dfa.jpg",
     caption=f"<b>ᴡᴇ ᴅᴏɴᴛ ɴᴇᴇᴅ ᴍᴀɴʏ <a href='https://t.me/clouddroid'>ᴄᴏᴍᴍᴀɴᴅs</a> ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ 🤩.\n\nᴊᴜsᴛ sᴇɴᴅ ᴍᴇ <a href='https://t.me/clouddroid'>ᴠɪᴅᴇᴏ ғɪʟᴇs</a> ᴀɴᴅ ɪ ᴡɪʟʟ ɢɪᴠᴇ ʏᴏᴜ <a href='https://t.me/clouddroid'>ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ & sᴛʀᴇᴀᴍᴀʙʟᴇ</a> ʟɪɴᴋ.\n\nᴏʀ ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ɪɴ <a href='https://t.me/clouddroid'>CʟᴏᴜᴅDʀᴏɪᴅ</a>..ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ᴀɴᴅ sᴇᴇ ᴍʏ ᴍᴀɢɪᴄ 😎</b>",
     reply_markup=InlineKeyboardMarkup(
         [
@@ -216,7 +216,7 @@ async def cb_handler(client, query):
             [InlineKeyboardButton("ᴏᴜʀ ɢʀᴏᴜᴘ 🚩", url=clouddroid_grp)],
 
             [
-                 InlineKeyboardButton("ᴅɪsᴄʟᴀɪᴍᴇʀ 🔻", url=f"https://telegra.ph/Disclaimer-11-07-37"),
+                 InlineKeyboardButton("ᴅɪsᴄʟᴀɪᴍᴇʀ 🔻", url=f"https://telegra.ph/Disclaimer-10-12-23"),
                  InlineKeyboardButton("ᴅᴇᴠ 😊", callback_data="aboutDev")
             ]
         ]
@@ -287,4 +287,5 @@ async def cb_handler(client, query):
         user_id =(data.split("_")[1])
         user_id = int(user_id.replace(' ' , ''))
         await query.message.edit(f"Tʜᴇ ᴜɴʙᴀɴ ᴏɴ <code>{user_id}</code> ᴡᴀs ᴇxᴇᴄᴜᴛᴇᴅ sɪʟᴇɴᴛʟʏ.")
+
 
