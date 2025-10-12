@@ -1,8 +1,10 @@
-from biisal.vars import Var
-from biisal.bot import StreamBot
-from biisal.utils.human_readable import humanbytes
-from biisal.utils.file_properties import get_file_ids
-from biisal.server.exceptions import InvalidHash
+# <!-- # (c) @clouddroid
+# (c) Praveen(𝕏Ð)Diwakar-->
+from clouddroid.vars import Var
+from clouddroid.bot import StreamBot
+from clouddroid.utils.human_readable import humanbytes
+from clouddroid.utils.file_properties import get_file_ids
+from clouddroid.server.exceptions import InvalidHash
 import urllib.parse
 import aiofiles
 import logging
@@ -25,9 +27,9 @@ async def render_page(id, secure_hash, src=None):
     tag = file_data.mime_type.split("/")[0].strip()
     file_size = humanbytes(file_data.file_size)
     if tag in ["video", "audio"]:
-        template_file = "biisal/template/req.html"
+        template_file = "clouddroid/template/req.html"
     else:
-        template_file = "biisal/template/dl.html"
+        template_file = "clouddroid/template/dl.html"
         async with aiohttp.ClientSession() as s:
             async with s.get(src) as u:
                 file_size = humanbytes(int(u.headers.get("Content-Length")))
@@ -42,4 +44,5 @@ async def render_page(id, secure_hash, src=None):
         file_url=src,
         file_size=file_size,
         file_unique_id=file_data.unique_id,
+
     )
