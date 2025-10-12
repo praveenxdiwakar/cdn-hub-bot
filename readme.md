@@ -168,9 +168,10 @@ Bot also Supported with Channels. Just add bot Channel as Admin. If any new file
 
 ### Credits : 
 
-- [Me](https://github.com/praveenxdiwakar)
+- [𝕏Ð](https://github.com/praveenxdiwakar)
 - [Cloud Droid](https://t.me/clouddroid)
 - Everyone In This Journey !
+
 
 
 
