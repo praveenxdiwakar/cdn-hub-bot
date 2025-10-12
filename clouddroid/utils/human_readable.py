@@ -1,5 +1,5 @@
-# (c) @biisal
-# (c) adarsh-goel
+# <!-- # (c) @clouddroid
+# (c) Praveen(𝕏Ð)Diwakar-->
 
 
 def humanbytes(size):
@@ -14,3 +14,4 @@ def humanbytes(size):
         size /= power
         n += 1
     return str(round(size, 2)) + " " + Dic_powerN[n] + 'B'
+
