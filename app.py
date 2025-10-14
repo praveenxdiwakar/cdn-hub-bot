@@ -1,5 +1,6 @@
+import os
 from flask import Flask, request
-from clouddroid.bot import StreamBot
+from clouddroid.bot import StreamBot  # your Pyrogram client
 
 app = Flask(__name__)
 
@@ -10,4 +11,5 @@ def webhook():
     return "OK", 200
 
 if __name__ == "__main__":
+    # Run Flask on the PORT provided by Render
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
