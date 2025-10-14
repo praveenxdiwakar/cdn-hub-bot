@@ -1,5 +1,6 @@
 # app.py
 import threading
+import asyncio
 from flask import Flask
 from clouddroid.bot import StreamBot
 
@@ -7,18 +8,20 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "✅ CloudDroid Bot is running!"
+    return "✅ CloudDroid is Live — Pyrogram + Flask working!"
 
-# --- Run Pyrogram Bot in a Background Thread ---
 def run_pyrogram():
     print("🚀 Starting Pyrogram Bot...")
+    # Create a new event loop for this thread
+    loop = asyncio.new_event_loop()
+    asyncio.set_event_loop(loop)
     StreamBot.run()
 
 if __name__ == "__main__":
-    # Start Pyrogram bot on another thread
+    # Run the Pyrogram bot in a background thread
     bot_thread = threading.Thread(target=run_pyrogram)
     bot_thread.start()
 
-    # Start Flask for web streaming
+    # Run Flask server
     print("🌐 Starting Flask server...")
     app.run(host="0.0.0.0", port=10000)
